@@ -1,0 +1,30 @@
+.create-user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.create-btn{
+  margin-left: 680px;
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+
+}
+.edit-btn{
+  margin-right: 10px;
+}
+.error{
+  background-color: red;
+  color: white;
+  text-align: center;
+  
+}
+.xBTn{
+  margin-right: 360px;
+
+}
+.spinner{
+  height: 50vh;
+}
