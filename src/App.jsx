@@ -3,9 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from "axios";
 
 import "./App.css";
-import UserCard from "./componentd/card";
-import Header from "./componentd/header";
-import CreateUser from "./componentd/CreateUser";
+import { CreateUser, UserCard } from "./Pages";
+import Header from "./Components/Header";
 
 function App() {
   const [data, setData] = useState([]);
@@ -16,8 +15,6 @@ function App() {
       const data = await axios.get(
         "https://task-dev-kom.vercel.app/api/all-user"
       );
-      // setData(data)
-      console.log(data.status);
 
       if (data.status === 200) {
         setData(data);

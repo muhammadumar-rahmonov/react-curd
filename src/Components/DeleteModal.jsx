@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import LoadingSpinner from "./sppiner";
+import LoadingSpinner from "./LoadingSpinner";
 
 function DeleteModal({ userId }) {
   const [show, setShow] = useState(false);

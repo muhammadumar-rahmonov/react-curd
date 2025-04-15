@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { Button, FloatingLabel, Form, Modal } from "react-bootstrap";
-import LoadingSpinner from "./sppiner";
+import LoadingSpinner from "./LoadingSpinner";
 
 function EditModal({ userId, users }) {
   const [firstName, setFirstName] = useState("");

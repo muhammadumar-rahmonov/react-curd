@@ -1,13 +1,11 @@
 import { Button, FloatingLabel, Form, Table } from "react-bootstrap";
-import EditModal from "./editModal";
-import DeleteModal from "./deleteModal";
-import SitegSpinner from "./siteSpinner";
+import { DeleteModal, EditModal, SiteSpinner } from "../Components";
 
 function UserCard({ data, loading }) {
   return (
     <>
       {loading ? (
-        <SitegSpinner />
+        <SiteSpinner />
       ) : (
         <Table striped bordered hover>
           <thead>
